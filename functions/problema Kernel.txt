@@ -1,0 +1,17 @@
+Ative o arquivo input2.mat
+
+[OutputImage] = Gspir_BlocoTexture(double(a),~logical(b), 4, 3, 71, double(u), 100000)
+
+Olhar "Pixels inpainted: 179 / 651"
+
+Hq(:,:,1), Hq(:,:,2), Hq(:,:,3), Hq(:,:,4) são as matrizes selecionadas para o cálculo de Hp
+
+h,r são usados para o cálculo do kernel W(h,r)
+
+V é 1/nNeighbors (é utilizado na fórmula da intensidade do GSPIR)
+
+toFill é a mascara onde os valores "true" são os selecionados para o retoque
+
+im é a matriz resultante do filtro "Kernel.m" (onde está o problema e é possível ver na iteração 179)
+
+Hr é a matriz resultante atribuida a Hp.
